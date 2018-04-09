@@ -83,7 +83,7 @@ resource "azurerm_lb_rule" "lbnatrule" {
 }
 
 data "azurerm_resource_group" "image" {
-  name = "myResourceGroup"
+  name = "myPackerImageResourceGroup"
 }
 
 data "azurerm_image" "image" {
