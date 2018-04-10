@@ -1,9 +1,5 @@
 #azure terraform
 provider "azurerm" {
-subscription_id = "783f1553-685c-4b16-ad1a-13ae649de268"
-client_id = "7fcdbb57-8fea-4274-bfc7-455eeac44a13"
-client_secret = "4f5b96fa-6a0c-4018-926a-7db56fd18e93"
-tenant_id       = "105b2061-b669-4b31-92ac-24d304d195dc"
 }
 
 resource "azurerm_resource_group" "vmss" {
